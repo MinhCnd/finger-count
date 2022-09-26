@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "finger-count"
+version = "0.1.0"
+description = ""
+authors = ["MinhCnd <minh.cnd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.7"
+opencv-python = "4.6.0.66"
+numpy = "1.23.1"
+mediapipe = "0.8.11"
+
+[tool.poetry.dev-dependencies]
+black = "21.4b2"
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
+mypy = "^0.961"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
