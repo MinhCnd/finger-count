@@ -10,3 +10,5 @@ Call the following from the project folder
 poetry install
 poetry run main.py
 ```
+
+Press q to stop demo

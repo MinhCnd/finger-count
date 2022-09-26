@@ -182,7 +182,7 @@ while True:
                 thickness=4,
             )
 
-        cv2.imshow("MediaPipe Hands", image)
+        cv2.imshow("Hand Count", image)
 
     if cv2.waitKey(25) & 0xFF == ord("q"):
         break
